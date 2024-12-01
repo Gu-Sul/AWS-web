@@ -8,14 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <img src="https://m.segye.com/content/image/2024/04/22/20240422516518.jpg" />
       <h1>FaceBook-Webb</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
