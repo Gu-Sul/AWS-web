@@ -30,4 +30,4 @@ jobs:
 
       - name: S3 기존 파일 전체 삭제
         run: |
-          aws s3 rm --rescursive s3://facebook-webb
+          aws s3 rm --recursive s3://facebook-webb
